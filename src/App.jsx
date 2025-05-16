@@ -1,8 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './components/SearchBar'
-import viteLogo from '/components/ImageList'
+import { useState } from "react"
+import SearchBar from "./components/SearchBar"
+import ImageList from "./components/ImageList"
 import searchImages from "./api"
-import SearchBar from './components/SearchBar'
 
 function App() {
   //searchImages('cars')
